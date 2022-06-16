@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: orange;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 35px;
+  float: left;
+}
+
+#stage {
+  position: absolute;
+  top: 0;
+  height: 700px;
+  width: 1000px;
+  background-image: url("image/Donkey-Kong-level.jpg");
+  background-repeat: no-repeat;  
+  background-size: contain;
+}
+
+#kong {
+  position: absolute;
+  top: 385px;
+  left: 300px;
+  width: 90px;
+  height: 120px;
+  background-image: url("image/DKCDonkeyKong.png");
+  background-repeat: no-repeat;  
+  background-size: contain;
+}
+
+#banana {
+  position: absolute;
+  top: 430px;
+  left: 550px;
+  width: 50px;
+  height: 55px;
+  background-image: url("image/BananaDKCR.png");
+  background-repeat: no-repeat;  
+  background-size: contain;
+}
